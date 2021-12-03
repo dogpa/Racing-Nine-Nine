@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		2D0F06FA2750F6670002100E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F06F92750F6670002100E /* AppDelegate.swift */; };
 		2D0F06FC2750F6670002100E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F06FB2750F6670002100E /* SceneDelegate.swift */; };
-		2D0F06FE2750F6670002100E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F06FD2750F6670002100E /* ViewController.swift */; };
 		2D0F07012750F6670002100E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F06FF2750F6670002100E /* Main.storyboard */; };
 		2D0F07042750F6670002100E /* Racing_Nine_Nine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F07022750F6670002100E /* Racing_Nine_Nine.xcdatamodeld */; };
 		2D0F07062750F6690002100E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F07052750F6690002100E /* Assets.xcassets */; };
 		2D0F07092750F6690002100E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F07072750F6690002100E /* LaunchScreen.storyboard */; };
+		2D0F0718275108980002100E /* GameModelAndTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F0717275108980002100E /* GameModelAndTypeViewController.swift */; };
+		2D0F071A27510A180002100E /* 難度設定.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F071927510A180002100E /* 難度設定.swift */; };
+		2D0F071C275114150002100E /* FunctionAndStructForMATS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F071B275114150002100E /* FunctionAndStructForMATS.swift */; };
+		2D0F071E27514B740002100E /* TrafficSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F071D27514B740002100E /* TrafficSelectViewController.swift */; };
+		2D0F072027549FA20002100E /* GamingCsreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F071F27549FA20002100E /* GamingCsreenViewController.swift */; };
+		2D0F07222754C02F0002100E /* GamingScreenFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F07212754C02F0002100E /* GamingScreenFunction.swift */; };
+		2D0F072A27560F600002100E /* TimeRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F072827560F600002100E /* TimeRecord+CoreDataClass.swift */; };
+		2D0F072B27560F600002100E /* TimeRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F072927560F600002100E /* TimeRecord+CoreDataProperties.swift */; };
+		2D0F072D275611B40002100E /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F072C275611B40002100E /* FrontPageViewController.swift */; };
+		2D0F072F2756123F0002100E /* FunctionForFrontPageUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F072E2756123F0002100E /* FunctionForFrontPageUse.swift */; };
+		2D0F07312756131A0002100E /* SearchBillvoardTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F07302756131A0002100E /* SearchBillvoardTypeViewController.swift */; };
+		2D0F0733275620020002100E /* BillboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F0732275620020002100E /* BillboardTableViewCell.swift */; };
+		2D0F073527564C5F0002100E /* IntTransformToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F073427564C5E0002100E /* IntTransformToString.swift */; };
+		2D0F07392757586C0002100E /* GameInstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F07382757586B0002100E /* GameInstructionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D0F06F62750F6670002100E /* Racing Nine Nine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Racing Nine Nine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0F06F92750F6670002100E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D0F06FB2750F6670002100E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D0F06FD2750F6670002100E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D0F07002750F6670002100E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D0F07032750F6670002100E /* Racing_Nine_Nine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Racing_Nine_Nine.xcdatamodel; sourceTree = "<group>"; };
 		2D0F07052750F6690002100E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D0F07082750F6690002100E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0F070A2750F6690002100E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0F0717275108980002100E /* GameModelAndTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModelAndTypeViewController.swift; sourceTree = "<group>"; };
+		2D0F071927510A180002100E /* 難度設定.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "難度設定.swift"; sourceTree = "<group>"; };
+		2D0F071B275114150002100E /* FunctionAndStructForMATS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionAndStructForMATS.swift; sourceTree = "<group>"; };
+		2D0F071D27514B740002100E /* TrafficSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSelectViewController.swift; sourceTree = "<group>"; };
+		2D0F071F27549FA20002100E /* GamingCsreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingCsreenViewController.swift; sourceTree = "<group>"; };
+		2D0F07212754C02F0002100E /* GamingScreenFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingScreenFunction.swift; sourceTree = "<group>"; };
+		2D0F072827560F600002100E /* TimeRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2D0F072927560F600002100E /* TimeRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2D0F072C275611B40002100E /* FrontPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
+		2D0F072E2756123F0002100E /* FunctionForFrontPageUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForFrontPageUse.swift; sourceTree = "<group>"; };
+		2D0F07302756131A0002100E /* SearchBillvoardTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBillvoardTypeViewController.swift; sourceTree = "<group>"; };
+		2D0F0732275620020002100E /* BillboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardTableViewCell.swift; sourceTree = "<group>"; };
+		2D0F073427564C5E0002100E /* IntTransformToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTransformToString.swift; sourceTree = "<group>"; };
+		2D0F07382757586B0002100E /* GameInstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInstructionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +84,11 @@
 		2D0F06F82750F6670002100E /* Racing Nine Nine */ = {
 			isa = PBXGroup;
 			children = (
+				2D0F072727560F140002100E /* CoreData */,
+				2D0F07152750F91F0002100E /* Model */,
+				2D0F0716275108610002100E /* Front Page Screen */,
 				2D0F06F92750F6670002100E /* AppDelegate.swift */,
 				2D0F06FB2750F6670002100E /* SceneDelegate.swift */,
-				2D0F06FD2750F6670002100E /* ViewController.swift */,
 				2D0F06FF2750F6670002100E /* Main.storyboard */,
 				2D0F07052750F6690002100E /* Assets.xcassets */,
 				2D0F07072750F6690002100E /* LaunchScreen.storyboard */,
@@ -68,6 +96,81 @@
 				2D0F07022750F6670002100E /* Racing_Nine_Nine.xcdatamodeld */,
 			);
 			path = "Racing Nine Nine";
+			sourceTree = "<group>";
+		};
+		2D0F07102750F85F0002100E /* BillBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F07302756131A0002100E /* SearchBillvoardTypeViewController.swift */,
+				2D0F073427564C5E0002100E /* IntTransformToString.swift */,
+				2D0F0732275620020002100E /* BillboardTableViewCell.swift */,
+			);
+			path = BillBoard;
+			sourceTree = "<group>";
+		};
+		2D0F07112750F87A0002100E /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F07122750F88C0002100E /* Model And Type Screen */,
+				2D0F07132750F89C0002100E /* Traffic Select Screen */,
+				2D0F07142750F8D70002100E /* Gaming Screen */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		2D0F07122750F88C0002100E /* Model And Type Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F0717275108980002100E /* GameModelAndTypeViewController.swift */,
+				2D0F071B275114150002100E /* FunctionAndStructForMATS.swift */,
+				2D0F07382757586B0002100E /* GameInstructionViewController.swift */,
+			);
+			path = "Model And Type Screen";
+			sourceTree = "<group>";
+		};
+		2D0F07132750F89C0002100E /* Traffic Select Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F071D27514B740002100E /* TrafficSelectViewController.swift */,
+			);
+			path = "Traffic Select Screen";
+			sourceTree = "<group>";
+		};
+		2D0F07142750F8D70002100E /* Gaming Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F071927510A180002100E /* 難度設定.swift */,
+				2D0F071F27549FA20002100E /* GamingCsreenViewController.swift */,
+				2D0F07212754C02F0002100E /* GamingScreenFunction.swift */,
+			);
+			path = "Gaming Screen";
+			sourceTree = "<group>";
+		};
+		2D0F07152750F91F0002100E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D0F0716275108610002100E /* Front Page Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F072C275611B40002100E /* FrontPageViewController.swift */,
+				2D0F072E2756123F0002100E /* FunctionForFrontPageUse.swift */,
+				2D0F07112750F87A0002100E /* Game */,
+				2D0F07102750F85F0002100E /* BillBoard */,
+			);
+			path = "Front Page Screen";
+			sourceTree = "<group>";
+		};
+		2D0F072727560F140002100E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F072827560F600002100E /* TimeRecord+CoreDataClass.swift */,
+				2D0F072927560F600002100E /* TimeRecord+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +243,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D0F06FE2750F6670002100E /* ViewController.swift in Sources */,
 				2D0F06FA2750F6670002100E /* AppDelegate.swift in Sources */,
+				2D0F072F2756123F0002100E /* FunctionForFrontPageUse.swift in Sources */,
+				2D0F07392757586C0002100E /* GameInstructionViewController.swift in Sources */,
+				2D0F071C275114150002100E /* FunctionAndStructForMATS.swift in Sources */,
+				2D0F072027549FA20002100E /* GamingCsreenViewController.swift in Sources */,
 				2D0F06FC2750F6670002100E /* SceneDelegate.swift in Sources */,
+				2D0F071A27510A180002100E /* 難度設定.swift in Sources */,
+				2D0F073527564C5F0002100E /* IntTransformToString.swift in Sources */,
+				2D0F07312756131A0002100E /* SearchBillvoardTypeViewController.swift in Sources */,
+				2D0F072A27560F600002100E /* TimeRecord+CoreDataClass.swift in Sources */,
+				2D0F0718275108980002100E /* GameModelAndTypeViewController.swift in Sources */,
 				2D0F07042750F6670002100E /* Racing_Nine_Nine.xcdatamodeld in Sources */,
+				2D0F07222754C02F0002100E /* GamingScreenFunction.swift in Sources */,
+				2D0F0733275620020002100E /* BillboardTableViewCell.swift in Sources */,
+				2D0F072D275611B40002100E /* FrontPageViewController.swift in Sources */,
+				2D0F071E27514B740002100E /* TrafficSelectViewController.swift in Sources */,
+				2D0F072B27560F600002100E /* TimeRecord+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +409,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D758S53U98;
 				INFOPLIST_FILE = "Racing Nine Nine/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Dogpa.Racing-Nine-Nine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,14 +429,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D758S53U98;
 				INFOPLIST_FILE = "Racing Nine Nine/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Dogpa.Racing-Nine-Nine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
